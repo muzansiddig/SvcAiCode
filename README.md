@@ -1,21 +1,73 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
-
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/temp/1
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
 # SvcAiCode
+
+SvcAiCode is a modern software development studio focused on delivering high-performance web platforms, mobile applications, and AI-powered systems.  
+The project is built with a clean architecture, modular components, and optimized workflows intended for scalability and speed.
+
+---
+
+## 🚀 Features
+
+- ⚡ Fast, scalable architecture  
+- 📱 Modern UI built with React + TypeScript  
+- 🤖 AI-ready components and integration structure  
+- 🎨 Reusable components for consistent design  
+- 🗂 Clean code structure and modular organization  
+- 🔧 Fully configurable and easy to extend
+
+---
+
+## 📁 Project Structure
+
+/src
+├── components/ # Reusable UI components
+├── App.tsx # Main application entry
+├── index.tsx # Root rendering
+├── constants.ts # Global constants
+├── types.ts # Shared TypeScript types
+├── metadata.json # Project metadata
+└── ...
+
+yaml
+Copy code
+
+---
+
+## 🛠 Tech Stack
+
+- **React**
+- **TypeScript**
+- **Vite**
+- **Framer Motion**
+- **TailwindCSS**
+- **GitHub Actions (optional)**
+
+---
+
+## ⚙️ Installation
+
+```bash
+npm install
+npm run dev
+📦 Build
+bash
+Copy code
+npm run build
+Build output will be generated in the /dist folder.
+
+🌐 Deployment
+You can deploy using:
+
+Vercel
+
+Netlify
+
+GitHub Pages
+
+Cloudflare Pages
+
+🤝 Contributing
+Pull requests are welcome.
+For major changes, open an issue first to discuss your ideas.
+
+📄 License
+This project is licensed under the MIT License.
